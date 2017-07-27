@@ -1,0 +1,365 @@
+body{
+    background: #e6f5ff;
+    font-family: 'Play', sans-serif,Arial,
+    Helvetica;
+
+}
+.color_text1{
+    color: #f57723;
+    font-size: 35px;
+    font-weight: bold;
+}
+.color_text2{
+    color: #256d9a;
+    font-size: 35px;
+    font-weight: bold;
+}
+.zagol{
+    margin-top: 50px;
+    margin-left: 20%;
+    float: left;
+}
+.zagol2{
+    color: #885852;
+    margin-top: 3px;
+    margin-left: 18%;
+    display: inline-block;
+}
+.vk{
+    width: 183px;
+    height: 48px;
+    background: #f6fbff;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+.vk a{
+    padding-top: 15px;
+    text-decoration: none;
+    display: block;
+    width: 183px;
+    height: 33px;
+    font-weight: bold;
+    color: #315971;
+}
+.vk a:hover{
+    color: #ffffff;
+}
+.vk:hover{
+    box-shadow: 1px 5px 10px 2px #5d5d5d;
+    transition: all 0.3s;
+    background: #89b1ca;
+}
+/* для постановки всего по центру, после -
+назначить прозрачный фон*/
+.metka{
+    background: #E6F5FF;
+    height: 1055px;
+    width: 960px;
+    margin: auto;
+}
+/* Стили главного меню*/
+.dws-menu*{
+    margin: 0;
+    padding:0;
+}
+.dws-menu ul{
+    padding: 0;
+    margin-left: 0;
+    margin-top: -50px;
+}
+.dws-menu{
+    margin-top: 100px;
+}
+.dws-menu ul{
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+}
+.dws-menu > ul > li > a{
+    display: block;
+    background: #ffffff;
+    padding:15px 30px 15px 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.dws-menu > ul > li{
+    position: relative;
+}
+.dws-menu > ul >li > a > i.fa{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu ul li{
+    border-left: 1px solid #7f7f7f;
+}
+.dws-menu ul li.bor{
+    border-right: 1px solid #7f7f7f;
+}
+.dws-menu ul li.reg{
+    margin-left: 70px;
+}
+.dws-menu ul li.reg{
+    border-left: 1px solid #ffffff;
+}
+.dws-menu li a:hover{
+    background: #c8eaff;
+    box-shadow: 1px 5px 10px 2px #5d5d5d;
+    transition: all 0.3s;
+}
+
+/* Блоки с лева на главной странице*/
+
+.center_bloc{
+    float: left;
+}
+.bloc_left1{
+    width: 233px;
+    height: 262px;
+    background: #c3c3c3;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 10px;
+}
+/*текст внутри левого блока*/
+.bl1{
+    color: #ffffff;
+    font-size: 20px;
+}
+.bloc_left2{
+    width: 233px;
+    height: 150px;
+    background: #c3c3c3;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.bloc_left3{
+    width: 233px;
+    height: 200px;
+    background: #c3c3c3;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.bloc_left4{
+    width: 707px;
+    height: 835px;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+    float: left;
+}
+.zagolovok{
+    width: 707px;
+    height:30px;
+    background: #f9f9f9;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px
+}
+.tex1{ color: #f57723; font-weight: bold; }
+.tex2{ color: #256d9a; font-weight: bold; }
+
+.zagolovok2{
+    width: 667px;
+    height: 132px;
+    background: #f9f9f9;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 19px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+.zagolovok2 span{
+    margin-left: 40px;
+    font-weight: bold;
+    color: #575757;
+}
+.knopka_centr{
+    width: 470px;
+    height: 60px;
+    background: #ffd012;
+    margin-left: 118px;
+    margin-top: 20px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.knopka_centr:hover{
+    background: #ffea00;
+}
+.textkn1{
+    color: #424041;
+    font-size: 27px;
+    font-weight: bold;
+}
+.line{
+    margin-top: 5px;
+    width: 707px;
+    height: 35px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding-top: 40px;
+}
+.line span{
+    color: #256D9A;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* 6 блоков ( наши плюсы и никаких минусов)*/
+.prem_blok1{
+    height: 166px;
+    width: 338px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background: #edf8ff;
+    float: left;
+    border-radius: 7px;
+}
+.prem_blok11  img{
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 43px;
+    float: left;
+}
+.prem_blok11{
+    height: 60px;
+}
+.prem_blok11 span{
+    display: block;
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #366d90;
+    font-weight: bold;
+}
+.prem_blok2{
+     height: 166px;
+     width: 338px;
+     margin-left: 10px;
+     margin-top: 15px;
+     background: #edf8ff;
+     float: left;
+    border-radius: 7px;
+ }
+.prem_blok3{
+    height: 124px;
+    width: 338px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #edf8ff;
+    float: left;
+    border-radius: 7px;
+}
+.prem_blok4{
+    height: 124px;
+    width: 338px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #edf8ff;
+    float: left;
+    border-radius: 7px;
+}
+.prem_blok5{
+    height: 124px;
+    width: 338px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #edf8ff;
+    float: left;
+    border-radius: 7px;
+}
+.prem_blok6{
+    height: 124px;
+    width: 338px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #edf8ff;
+    float: left;
+    border-radius: 7px;
+}
+.prem_blok div{box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);}
+
+/* стили span для тексовых блоков*/
+.tx {
+    display: block;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #a0dafe;
+}
+.center_footer{
+    height: 100px;
+    width: 960px;
+    margin: auto;
+}
+
+.footer1 a{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #36496b;
+    display: block;
+    float: left;
+}
+.footer1{
+    margin-left: 290px;
+}
+.footer1 a:hover{
+    color: #ffffff;
+}
+
+/* стили  страницы page-tovar*/
+
+.biz_bloc1{
+    height: 290px;
+    width: 220px;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    border: 1px solid #c1c1c1;
+}
+.biz_bloc2{
+    height: 100px;
+    width: 687px;
+    background: #000000;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.foto img{
+    width: 220px;
+    height: 160px;
+}
+.foto_text{
+    padding: 10px 4px 0 4px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
