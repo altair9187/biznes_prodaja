@@ -356,6 +356,19 @@ footer{
     text-align: center;
 }
 
+.button {
+    width: 150px;
+    height: 28px;
+    background: #ffd012;
+    margin-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+    padding-top: 7px;
+}
+.button a{
+    text-decoration: none;
+    color: #000000;
+}
 
 
 
