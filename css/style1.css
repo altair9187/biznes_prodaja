@@ -121,20 +121,63 @@ body{
 .center_bloc{
     float: left;
 }
+/*<-------------первый блок начало------------>*/
 .bloc_left1{
     width: 233px;
     height: 262px;
-    background: #c3c3c3;
+    background: #f9f9f9;
     margin-top: 20px;
     border-radius: 4px;
     text-align: center;
     padding-top: 10px;
 }
 /*текст внутри левого блока*/
+.bl11{
+    width: 233px;
+    height: 28px;
+    background: #c3c3c3;
+    margin-top: -10px;
+    padding-top: 2px;
+}
 .bl1{
     color: #ffffff;
     font-size: 20px;
 }
+.kn1{
+    width: 233px;
+    height: 28px;
+    background: #F57723;
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    border-radius: 3px;
+}
+.kn2{
+    width: 233px;
+    height: 28px;
+    background: #F57723;
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    border-radius: 3px;
+}
+.kn3{
+    width: 233px;
+    height: 28px;
+    background: #F57723;
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    border-radius: 3px;
+}
+
+/*<--------------первый блок конец-------->*/
 .bloc_left2{
     width: 233px;
     height: 150px;
@@ -368,6 +411,7 @@ footer{
 .button a{
     text-decoration: none;
     color: #000000;
+
 }
 
 
